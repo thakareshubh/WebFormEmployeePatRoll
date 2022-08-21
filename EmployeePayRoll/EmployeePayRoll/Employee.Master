@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Employee.master.cs" Inherits="EmployeePayRoll.Employee" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:bisque;top:0;left:0;right:0;height:80px">
+            <div class="container">
+                <div class="navbar-header" style="display:flex;flex-direction:row;" >
+                    
+                    <div>
+                        <img style="width:60px;height:60px;margin-left:20px;margin-top:5px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOu41rRcFpT4DqVjVNkLaUdn1P6tMhf6Gag&usqp=CAU" /></label>
+                   </div>
+                    <div style="margin-top:10px;margin-left:20px">
+                        <label style="font-size:25px;height:200px">Employee <span>Payroll</span> </label>
+                    </div>
+                   
+               </div>
+                
+            </div>
+       </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+
+            </asp:ContentPlaceHolder>
+         
+            
+
+        </div>
+    </form>
+     <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Employee Data by Employer</p>
+     </footer>
+</body>
+</html>

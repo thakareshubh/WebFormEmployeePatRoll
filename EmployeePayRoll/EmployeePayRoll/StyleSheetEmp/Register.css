@@ -1,0 +1,17 @@
+﻿
+.Ftext {
+    border-radius: 5px;
+    font-size: 18px;
+}
+.Ltext {
+    width: 170px;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 18px;
+    
+}
+.Etext {
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
